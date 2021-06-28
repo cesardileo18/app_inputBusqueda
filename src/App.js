@@ -28,12 +28,12 @@ const handleChange=e=>{
 
 const filtrar=(terminoBusqueda)=>{
   var resultadosBusqueda=tablaUsuarios.filter((elemento)=>{
-    if(elemento.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())
-    || elemento.company.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())||
-    elemento.username.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())|| 
-    elemento.phone.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())||
-     elemento.email.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())||
-      elemento.address.city.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())
+    if(elemento.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase().trim())
+    || elemento.company.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase().trim())||
+    elemento.username.toString().toLowerCase().includes(terminoBusqueda.toLowerCase().trim())|| 
+    elemento.phone.toString().toLowerCase().includes(terminoBusqueda.toLowerCase().trim())||
+     elemento.email.toString().toLowerCase().includes(terminoBusqueda.toLowerCase().trim())||
+      elemento.address.city.toString().toLowerCase().includes(terminoBusqueda.toLowerCase().trim())
     ){
       return elemento;
     }
