@@ -59,7 +59,7 @@ peticionGet();
                 onChange={handleChange}
                 value={busqueda}
               />
-              <button type= "submit" className="btnBuscar">
+              <button type= "submit" className="btnBuscar btn-success">
                 <FontAwesomeIcon icon={faSearch} />
               </button>
             </div>
