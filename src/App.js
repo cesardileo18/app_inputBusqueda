@@ -73,12 +73,12 @@ peticionGet();
                           
                           <div className = "card-body text-light ">
                               <h4 className = "card-tittle">Usuarios</h4>
-                              <p className = "card-text text-secondary">{"Name: "+usuario.name}</p>
-                              <p className = "card-text text-secondary">{"Username: " +usuario.username}</p>
-                              <p className = "card-text text-secondary">{"Email: " +usuario.email}</p>
-                              <p className = "card-text text-secondary">{"City: " +usuario.address.city}</p>
-                              <p className = "card-text text-secondary">{"Phone: " +usuario.phone}</p>
-                              <p className = "card-text text-secondary">{"Company name: " +usuario.company.name}</p>
+                              <p className = "card-text text-warning">{"Name: "+usuario.name}</p>
+                              <p className = "card-text text-warning">{"Username: " +usuario.username}</p>
+                              <p className = "card-text text-warning">{"Email: " +usuario.email}</p>
+                              <p className = "card-text text-warning">{"City: " +usuario.address.city}</p>
+                              <p className = "card-text text-warning">{"Phone: " +usuario.phone}</p>
+                              <p className = "card-text text-warning">{"Company name: " +usuario.company.name}</p>
                           </div>
                        </div>
                     </div>
